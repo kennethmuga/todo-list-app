@@ -4,7 +4,7 @@ class ToDoList:
         self.tasks = []
 
     def add_task(self, task):
-        # Add a new task to the list
+        # Add a new task to the list and append
         self.tasks.append({"task": task, "completed": False})
 
     def mark_task_complete(self, index):
